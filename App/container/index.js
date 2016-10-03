@@ -5,7 +5,8 @@ import {
   StyleSheet,
   View,
   Text,
-  ActivityIndicator
+  ActivityIndicator,
+  DatePickerIOS
 } from 'react-native'
 
 // import custom component
@@ -17,6 +18,15 @@ export default class App extends Component {
   render() {
     return (
       <ActivityIndicator style={styles.container}/>
+    );
+  }
+
+  render() {
+    return (
+      <View>
+        <Text>
+        </Text>
+      </View>
     );
   }
 }
