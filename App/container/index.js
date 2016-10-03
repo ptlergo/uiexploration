@@ -5,6 +5,7 @@ import {
   StyleSheet,
   View,
   Text,
+  Switch,
   ActivityIndicator,
   DatePickerIOS
 } from 'react-native'
@@ -25,6 +26,17 @@ export default class App extends Component {
     return (
       <View>
         <Text>
+          datepicker
+        </Text>
+      </View>
+    );
+  }
+
+  render() {
+    return (
+      <View>
+        <Text>
+          switching statement
         </Text>
       </View>
     );
