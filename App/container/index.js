@@ -4,7 +4,8 @@ import React, { Component } from 'react'
 import {
   StyleSheet,
   View,
-  Text
+  Text,
+  ActivityIndicator
 } from 'react-native'
 
 // import custom component
@@ -13,10 +14,10 @@ import Home from '../components/Home'
 // Create a class
 export default class App extends Component {
   // make a render for your returned ui
-  render(){
+  render() {
     return (
-      <Text> some text </Text>
-    )
+      <ActivityIndicator style={styles.container}/>
+    );
   }
 }
 
